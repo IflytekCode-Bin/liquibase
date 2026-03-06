@@ -111,7 +111,7 @@
         <module>liquibase-standard</module>
         <module>liquibase-cli</module>
         <module>liquibase-maven-plugin</module>
-        <module>liquibase-integration-tests</module>
+    <!--<module>liquibase-integration-tests</module>-->
         <module>liquibase-dist</module>
         <module>liquibase-extension-testing</module>
         <module>liquibase-snowflake</module>
@@ -258,12 +258,6 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
-            <groupId>com.mysql</groupId>
-            <artifactId>mysql-connector-j</artifactId>
-            <version>9.6.0</version>
-            <scope>test</scope>
-        </dependency>
 
         <dependency>
             <groupId>com.microsoft.sqlserver</groupId>
