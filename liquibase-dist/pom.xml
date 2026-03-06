@@ -274,5 +274,16 @@
                 </repository>
             </repositories>
         </profile>
+        <profile>
+        <id>with-mysql</id>
+        <dependencies>
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>8.0.30</version>
+                <scope>compile</scope> 
+            </dependency>
+        </dependencies>
+    </profile>
     </profiles>
 </project>
