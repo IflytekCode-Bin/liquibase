@@ -39,6 +39,7 @@
             <directory>src/main/resources</directory>
             <outputDirectory>/</outputDirectory> <includes>
                 <include>liquibase.properties</include>
+                <include>skill-wrapper.sh</include>
             </includes>
             <fileMode>0644</fileMode>
         </fileSet>
